@@ -10,8 +10,6 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: .github/pr-labeler.yml
-        env:
-          github-token: ${{secrets.GITHUB_TOKEN}}
   run_if:
     if:  startsWith(github.head_ref, 'master/')
     runs-on: ubuntu-latest
