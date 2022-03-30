@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/github-script@v3
         with:
-          configuration-path: .github/pr-labeler.yml
+          script: .github/pr-labeler.yml
         env:
           github-token: ${{secrets.GITHUB_TOKEN}}
   run_if:
