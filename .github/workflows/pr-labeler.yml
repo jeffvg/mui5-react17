@@ -13,11 +13,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  pr-comment:
-    run_if:
-      if:  startsWith(github.head_ref, 'master/')
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Are you sure this pull request is for master branch?"
-          env:
-            github-token: ${{secrets.GITHUB_TOKEN}}
