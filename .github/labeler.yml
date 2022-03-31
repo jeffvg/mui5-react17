@@ -1,0 +1,8 @@
+version: 1
+labels:
+- label: "master"
+  branch: "^dev/.*"
+- label: "master"
+  branch: "^master/.*"
+- label: "master"
+  branch: "^hotfix/.*"
