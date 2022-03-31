@@ -1,2 +1,6 @@
-dev: ['dev/*', 'feature/*']
-master: ['master/*', 'hotfix/*']
+version: 1
+labels:
+- label: "master"
+  branch: "^dev/.*"
+- label: "master"
+  branch: "^hotfix/.*"
