@@ -1,1 +1,2 @@
-master: ['dev/*', 'hotfix/*']
+dev: ['dev/*', 'feature/*']
+master: ['master/*', 'hotfix/*']
