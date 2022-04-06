@@ -16,5 +16,5 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
-           message: 'Thank you for the master PR. We only accept dev and hotfix PRs for master branch. Please switch base branch to dev to get reviews'
+           message: 'Thank you for the master PR. We only accept dev and hotfix PRs for master branch. Please switch base branch to dev to get reviewed'
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
