@@ -1,8 +1,10 @@
 name: 'Comment on PR'
 on:
   pull_request:
-    branches:    
-      - master
+    branches-ignore:    
+      - dev
+      - hotfix
+      - release
 
 jobs:
   example_comment_pr:
@@ -14,5 +16,5 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
-           message: 'Thank you for the master PR. We only accept dev and hotfix branches for master PRs.'
+           message: 'Thank you for the master PR. We only accept dev and hotfix PRs for master branch. Please switch base branch to dev'
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
