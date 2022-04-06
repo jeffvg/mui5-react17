@@ -1,7 +1,7 @@
 on:
   pull_request:
     branches:    
-      - 'master/**'
+      - master
 
 jobs:
   example_comment_pr:
@@ -15,5 +15,5 @@ jobs:
         uses: thollander/actions-comment-pull-request@v1
 
         with:
-          message: 'Thank you for the master pull request. We do not accept feature branches for master branches'
+          message: 'Thank you for the master pull request! We do not accept feature PR's for master branches, only dev and hotfix branches will be approved.'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
