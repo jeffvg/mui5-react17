@@ -1,3 +1,4 @@
+name: 'Comment on PR'
 on:
   pull_request:
     branches:    
@@ -10,10 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
-
         with:
-          message: 'Thank you for the master PR. We do only accept dev and hotfix branches for master PR's.'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           message: 'Thank you for the master PR. We only accept dev and hotfix branches for master PRs.'
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
