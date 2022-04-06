@@ -1,7 +1,7 @@
 version: 1
 labels:
 - label: "master"
-  branch: "^dev/.*"
+  branch: "^feature/.*"
 - label: "master"
   branch: "^master/.*"
 - label: "master"
