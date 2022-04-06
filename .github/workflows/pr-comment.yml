@@ -3,8 +3,8 @@ on:
   pull_request:
     branches-ignore:    
       - dev
-      - hotfix
-      - release
+      - 'hotfix/**'
+      - 'release/**'
 
 jobs:
   example_comment_pr:
