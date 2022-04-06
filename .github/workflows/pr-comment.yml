@@ -1,4 +1,7 @@
 on: pull_request
+  push:
+    branches:
+      - master
 
 jobs:
   example_comment_pr:
@@ -12,5 +15,5 @@ jobs:
         uses: thollander/actions-comment-pull-request@v1
 
         with:
-          message: 'Example of message !'
+          message: 'Are you sure this is for master branch?'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
