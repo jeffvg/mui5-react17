@@ -1,7 +1,8 @@
 name: 'Comment on PR'
 on:
   pull_request:
-    branches-ignore:    
+    branches:
+      - master
       - dev
       - '!hotfix/**'
       - '!release/**'
