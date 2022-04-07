@@ -1,11 +1,10 @@
 name: 'Comment on PR'
 on:
   pull_request:
-    branches:
-      - master
-      - '!dev'
-      - '!release'
-      - '!hotfix'
+    branches-ignore:
+      - 'dev'
+      - 'release'
+      - 'hotfix'
 
 jobs:
   example_comment_pr:
