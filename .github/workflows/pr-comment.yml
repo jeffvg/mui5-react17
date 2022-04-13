@@ -2,9 +2,9 @@ name: 'Comment on PR'
 on:
   pull_request:
     branches:
-      - 'feature'
       - '!release/**'
       - '!hotfix/**'
+      - 'feature/**'
 
 jobs:
   example_comment_pr:
