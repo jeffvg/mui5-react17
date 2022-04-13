@@ -2,7 +2,7 @@ name: 'Comment on PR'
 on:
   pull_request:
     branches:
-      - 'feature/**'
+      - 'feature'
       - '!release/**'
       - '!hotfix/**'
 
