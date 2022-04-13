@@ -1,9 +1,9 @@
 name: 'Comment on PR'
 on:
   pull_request:
-    branches-ignore:
-      - 'release/**'
-      - 'hotfix/**'
+    branches:
+      - '!release/**'
+      - '!hotfix/**'
 
 jobs:
   example_comment_pr:
