@@ -14,5 +14,5 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
-           message: 'Thank you for the master PR. Please be sure this PR is for the master branch'
+           message: 'Thank you for the master pull request. Please be sure this pull request is for the master branch'
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
