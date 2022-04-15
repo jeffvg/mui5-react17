@@ -6,3 +6,5 @@ labels:
   branch: "^hotfix/.*"
 - label: "master"
   branch: "^release/.*"
+- label: "master"
+  branch: "^dev/.*"
