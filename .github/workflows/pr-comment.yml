@@ -3,8 +3,6 @@ on:
   pull_request:
     branches:
       - master
-      - dev
-      - '!hotfix/**'
 
 jobs:
   example_comment_pr:
@@ -16,5 +14,6 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
-           message: 'Thank you for the master PR. We only accept hotfix PRs for master branch. Please switch base branch to dev to get reviews'
+           message: 'Thank you for the master pull request. Please be sure this pull request is for the master branch.
+           Please read our [Contributing Guidelines](https://github.com/brightlayer-ui/.github/blob/master/CONTRIBUTING.md#contributing-to-brightlayer-ui) for more information.'
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
