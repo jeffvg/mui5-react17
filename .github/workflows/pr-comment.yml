@@ -14,5 +14,6 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
-           message: 'Thank you for the master pull request. Please be sure this pull request is for the master branch. Please read our [Contributing Guidelines](https://github.com/brightlayer-ui/.github/blob/master/CONTRIBUTING.md#contributing-to-brightlayer-ui)'
+           message: 'Thank you for the master pull request. Please be sure this pull request is for the master branch.
+           Please read our [Contributing Guidelines](https://github.com/brightlayer-ui/.github/blob/master/CONTRIBUTING.md#contributing-to-brightlayer-ui) for more information.'
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
