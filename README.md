@@ -19,7 +19,7 @@ This is a simple project using MUI5 and React 17. Some of the components used:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Script
 
 In the project directory, you can run:
 
