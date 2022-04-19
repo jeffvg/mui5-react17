@@ -6,5 +6,3 @@ labels:
   branch: "^release/.*"
 - label: "master"
   branch: "^dev/.*"
-- label: "master"
-  branch: "^jeffvg:master/.*"
