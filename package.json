@@ -2,6 +2,7 @@
   "name": "m5react",
   "version": "0.0.0",
   "description": "React 17 With Simple MUI-5 Components",
+  "license": "",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
