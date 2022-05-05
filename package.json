@@ -1,6 +1,7 @@
 {
   "name": "m5react",
   "version": "0.0.0",
+  "private": true,
   "description": "React 17 With Simple MUI-5 Components",
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -46,6 +47,7 @@
   },
   "devDependencies": {
     "@brightlayer-ui/prettier-config": "^1.0.3",
+    "firebase-tools": "^10.7.2",
     "prettier": "^2.6.2"
   }
 }
