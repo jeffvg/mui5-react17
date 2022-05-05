@@ -12,6 +12,3 @@ jobs:
     - uses: srvaroa/labeler@master
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-    - uses: pr-comment
-      env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
