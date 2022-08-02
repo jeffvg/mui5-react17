@@ -133,8 +133,14 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: 'Bundle dependabot dependency updates',
-              labels: 'external-dependency',
               head: '${{ github.event.inputs.combineBranchName }}',
               base: '${{ steps.fetch-branch-names.outputs.base-branch }}',
               body: body
             });
+          script: |
+            github.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['external-dependency']
+            })
