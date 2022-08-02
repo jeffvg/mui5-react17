@@ -1,4 +1,3 @@
-// extentions
 
 // react arrow function export component (rafce)
 import React from 'react'
