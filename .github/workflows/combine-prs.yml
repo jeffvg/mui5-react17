@@ -135,7 +135,7 @@ jobs:
               title: 'Bundle dependabot dependency updates',
               head: '${{ github.event.inputs.combineBranchName }}',
               base: '${{ steps.fetch-branch-names.outputs.base-branch }}',
-              body: body
+              body: body,
               labels:
               - "external-dependency"
             });
