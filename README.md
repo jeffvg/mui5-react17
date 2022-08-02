@@ -1,6 +1,5 @@
 # MUI Version 5 and React 17
 
-## Components
 
 This is a simple project using MUI5 and React 17. Some of the components used:
 - Appbar
