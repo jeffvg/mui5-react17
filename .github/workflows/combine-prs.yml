@@ -18,7 +18,7 @@ on:
         default: 'combined-dependabots'
       ignoreLabel:
         description: 'Exclude PRs with this label'
-        required: false
+        required: true
         default: 'nocombine'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -136,4 +136,6 @@ jobs:
               head: '${{ github.event.inputs.combineBranchName }}',
               base: '${{ steps.fetch-branch-names.outputs.base-branch }}',
               body: body
+              labels:
+              - "external-dependency"
             });
