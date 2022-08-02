@@ -17,11 +17,11 @@ This is a simple project using MUI5 and React 17. Some of the components used:
 - Toolbar
 - Typography
 
-## Started with Create React App
+### Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
