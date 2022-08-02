@@ -1,10 +1,2 @@
-version: 1
-labels:
-- label: "master"
-  branch: "^hotfix/.*"
-- label: "master"
-  branch: "^release/.*"
-- label: "master"
-  branch: "^dev/.*"
-- label: "external-dependency"
-  branch: "^combined/.*"
+master: ['hotfix/*', 'release/*', 'dev/*']
+external-dependency: ['combined/*', 'combined-dependabot/*']
