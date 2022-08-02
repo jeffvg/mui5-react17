@@ -1,4 +1,4 @@
-// from extensions
+// from extension
 
 
 // react arrow function export component (rafce)
