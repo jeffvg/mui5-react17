@@ -1,9 +1,7 @@
 name: PR Labeler
 on:
   pull_request:
-    branches:
-      - '!dependabot/*'
-      - '!dependabot/**/*'
+    types: [opened]
 
 permissions:
   contents: read
