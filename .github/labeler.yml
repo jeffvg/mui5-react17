@@ -1,6 +1,7 @@
-# Add 'dev' label to any root file changes
-dev:
+# Add 'hotfix' label to any root file changes
+hotfix:
 - '*'
+
 
 # # Add '@domain/core' label to any change within the 'core' package
 # '@domain/core':
