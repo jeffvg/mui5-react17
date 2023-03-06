@@ -1,6 +1,6 @@
 name: PR Labeler
 'on': pull_request
-    types:
+  types:
     - opened
   branches:
     - '!dependabot/*'
