@@ -1,3 +1,2 @@
 master: ['hotfix/*', 'release/*', 'dev/*']
-dev: ['feature/*', 'feat/*', '*/*', '*']
 external-dependency: ['combined/*', 'combined-dependabot/*']
