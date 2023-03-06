@@ -3,9 +3,8 @@ on:
   pull_request:
     types: [opened]
   branches:
-    exclude:
-    - dependabot/*
-    - dependabot/**/*
+    - '!dependabot/*'
+    - '!dependabot/**/*'
 
 permissions:
   contents: read
