@@ -9,7 +9,7 @@ permissions:
 jobs:
   pr-labeler:
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
