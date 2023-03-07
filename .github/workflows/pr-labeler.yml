@@ -1,13 +1,12 @@
 name: PR Labeler
 on:
-  pull_request:
-    types: [opened]
-
-permissions: write-all
+- pull_request_target
 
 jobs:
-  pr-labeler:
-    permissions: write-all
+  triage:
+    permissions:
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: TimonVS/pr-labeler-action@v4
