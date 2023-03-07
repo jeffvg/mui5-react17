@@ -3,14 +3,11 @@ on:
   pull_request:
     types: [opened]
 
-permissions:
-  contents: write
+permissions: write-all
 
 jobs:
   pr-labeler:
-    permissions:
-      contents: write
-      pull-requests: write
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: TimonVS/pr-labeler-action@v4
