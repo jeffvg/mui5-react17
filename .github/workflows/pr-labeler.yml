@@ -3,6 +3,10 @@ on:
   pull_request:
     types: [opened]
   workflow_call:
+    inputs:
+      configuration-path:
+        required: true
+        type: string
 
 permissions:
   contents: read
