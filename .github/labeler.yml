@@ -1,5 +1,5 @@
 # Add 'my-custom-label' label to any root file changes
-my-custom-label:
+documentation:
 - '*'
 
 
