@@ -2,8 +2,7 @@ name: PR Labeler
 on:
   pull_request:
     types: [opened]
-  repository_dispatch:
-    types: [run-workflow]
+  workflow_call:
 
 permissions:
   contents: read
